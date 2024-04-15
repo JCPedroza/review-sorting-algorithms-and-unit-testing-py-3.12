@@ -1,0 +1,7 @@
+# static type check
+pyright
+mypy
+
+# format
+black
+flake8
