@@ -1,4 +1,7 @@
-def bubble_sort(nums: list[int]) -> list[int]:
+from sort_types import IntList, SortingAlgorithm
+
+
+def bubble_sort(nums: IntList) -> IntList:
     swapped = False
 
     for loop in range(len(nums) - 1):
@@ -11,3 +14,7 @@ def bubble_sort(nums: list[int]) -> list[int]:
             return nums
 
     return nums
+
+
+name = "optimized bubble sort"
+algorithm = SortingAlgorithm(bubble_sort, name)
