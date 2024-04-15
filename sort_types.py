@@ -7,6 +7,6 @@ type Sorter = Callable[[IntList], IntList]
 
 
 @dataclass
-class SortingAlgorithm():
+class SortingAlgorithm:
     sort: Sorter
     name: str
