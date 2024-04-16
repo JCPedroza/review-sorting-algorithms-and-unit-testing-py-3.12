@@ -19,7 +19,7 @@ from sort_types import IntList, SortingAlgorithm
 
 
 def merge(left: IntList, right: IntList) -> IntList:
-    """Merges two ordered lists into one ordered list."""
+    """Merges two ascending sorted lists into one ascending sorted list."""
     lr_merge = []
 
     # Loop until either left or right is empty
@@ -31,7 +31,7 @@ def merge(left: IntList, right: IntList) -> IntList:
 
 
 def merge_sort(nums: IntList) -> IntList:
-    """Returns a sorted copy of the input list."""
+    """Returns a sorted copy of the input list in ascending order."""
     if len(nums) < 2:  # Empty and singleton lists are already sorted
         return nums
 

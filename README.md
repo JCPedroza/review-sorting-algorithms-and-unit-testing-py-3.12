@@ -49,13 +49,15 @@ python -m unittest sort_test.py
 
 ## Resources
 
-### What's new in Python 3.12
+### What's New in Python 3.12
 
   * https://docs.python.org/3/whatsnew/3.12.html
 
 ### Algorithms & Data Structures
 
   * https://www.bigocheatsheet.com/
+  * https://rosettacode.org/wiki/Sorting
+  * https://rosettacode.org/wiki/Category:Sorting_Algorithms
 
 ### Selection Sort
 
@@ -78,5 +80,11 @@ python -m unittest sort_test.py
 ### Merge Sort
 
   * https://en.wikipedia.org/wiki/merge_sort
-  * https://www.programiz.com/dsa/merge-sort
   * https://rosettacode.org/wiki/Sorting_algorithms/Merge_sort
+  * https://www.programiz.com/dsa/merge-sort
+
+## Heap Sort
+
+  * https://en.wikipedia.org/wiki/heap_sort
+  * https://rosettacode.org/wiki/Sorting_algorithms/Heapsort
+  * https://www.programiz.com/dsa/heap-sort
