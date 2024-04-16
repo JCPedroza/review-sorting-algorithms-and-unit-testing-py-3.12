@@ -37,6 +37,7 @@ python -m unittest sort_test.py
 | insertion sort | O(n) O(n^2) O(n^2)              | O(n) O(1)                   |
 
 ## Resources
+
   * https://en.wikipedia.org/wiki/selection_sort
   * https://www.programiz.com/dsa/selection-sort
   * https://rosettacode.org/wiki/Sorting_algorithms/Selection_sort
