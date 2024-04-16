@@ -22,7 +22,7 @@ def merge(left: IntList, right: IntList) -> IntList:
     """Merges two ordered lists into one ordered list."""
     lr_merge = []
 
-    # Loop until left or right is empty
+    # Loop until either left or right is empty
     while left and right:
         # Append the min value of the list first elements to the merged list
         lr_merge.append(left.pop(0) if left[0] <= right[0] else right.pop(0))
@@ -35,10 +35,12 @@ def merge_sort(nums: IntList) -> IntList:
     if len(nums) < 2:  # Empty and singleton lists are already sorted
         return nums
 
+    # Split list into two halves
     mid_idx = len(nums) // 2
     left_nums = nums[:mid_idx]
     righ_nums = nums[mid_idx:]
 
+    # Recursively sort left and right halves
     return merge(merge_sort(left_nums), merge_sort(righ_nums))
 
 
