@@ -46,6 +46,7 @@ python -m unittest sort_test.py
 | bubble sort    | O(n) O(n^2) O(n^2)               | O(n) O(1)                    |
 | insertion sort | O(n) O(n^2) O(n^2)               | O(n) O(1)                    |
 | merge sort     | O(n log n) O(n log n) O(n log n) | O(n) O(n)                    |
+| heap sort      | O(n log n) O(n log n) O(n log n) | O(n) O(n)                    |
 
 ## Resources
 
