@@ -2,10 +2,12 @@
 
 This project is a quick review of:
   * Python 3.12 new features
-  * Python native unit testing with `unittest`
+  * Python native unit testing with the `unittest` module
   * Sorting algorithms
 
 ## Installation
+
+Only needed for static type check and formatting.
 
 ```bash
 python -m pip install -r requirements.txt
