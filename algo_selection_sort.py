@@ -1,10 +1,10 @@
 """
-This implementation of Selection Sort avoids processing the sorted portion of the list
-by having loop + 1 as the start of the inner loop range.
-
-No flag is used for early termination optimization since it only works for arrays that
-are already initially sorted, and not for arrays that are sorted during the process, so
-I don't think the optimization is worth the overhead.
+This implementation of Selection Sort:
+  * Avoids processing the sorted portion of the list by having loop + 1 as the start of
+    the inner loop range.
+  * Avoids boolean flag for early termination optimization since it only works for
+    lists that are already initially sorted, and not for lists that are sorted during
+    the process, so the overhead is avoided.
 
 Time Complexity: Best O(n^2) | Avg O(n^2) | Worst O(n^2)
 Space Complexity: Total O(n) | Aux O(1)
@@ -33,5 +33,5 @@ def selection_sort(nums: IntList) -> IntList:
     return nums
 
 
-name = "selection sort (optimized best case)"
+name = "selection sort (no early termination)"
 algorithm = SortingAlgorithm(selection_sort, name)
