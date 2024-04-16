@@ -3,7 +3,7 @@
 This project is a quick review of:
   * Python 3.12 new features
   * Python native unit testing module `unittest`
-  * Sorting algorithms
+  * Some basic sorting algorithms
 
 This project also serves as the notes of said review. Expect to see some theory in the
 comments, docstrings, and readme.
