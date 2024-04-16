@@ -9,8 +9,8 @@ Time Complexity: Best O(n) | Avg O(n^2) | Worst O(n^2)
 Space Complexity: Total O(n) | Aux O(1)
 
 https://en.wikipedia.org/wiki/bubble_sort
-https://www.programiz.com/dsa/bubble-sort
 https://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort
+https://www.programiz.com/dsa/bubble-sort
 """
 
 from sort_types import IntList, SortingAlgorithm
