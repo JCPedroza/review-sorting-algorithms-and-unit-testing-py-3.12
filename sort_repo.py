@@ -1,4 +1,5 @@
-import bubble_sort
-import selection_sort
+from bubble_sort import algorithm as bubble
+from selection_sort import algorithm as selection
+from insertion_sort import algorithm as insertion
 
-algorithms = [bubble_sort.algorithm, selection_sort.algorithm]
+algorithms = [bubble, selection, insertion]
