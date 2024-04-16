@@ -27,7 +27,23 @@ Installation is only needed for static type check and formatting. Note that
 python -m pip install -r requirements.txt
 ```
 
-## Unit Testing
+## How to Run
+
+### Static Type Check
+
+```bash
+python -m pyright .
+python -m mypy .
+```
+
+### Linting & Formatting
+
+```bash
+python -m black .
+python -m flake8 .
+```
+
+### Unit Testing
 
 This project uses the `unittest` native Python module to write and run unit testing.
 
