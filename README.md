@@ -7,8 +7,8 @@ This project is a quick review of:
 
 ## Installation
 
-Only needed for static type check and formatting. Note that `mypy` might not
-yet support type aliases.
+Installation is only needed for static type check and formatting. Note that
+`mypy` might not yet support type aliases.
 
 ```bash
 python -m pip install -r requirements.txt
