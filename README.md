@@ -1,5 +1,11 @@
 # Implementing & Testing Sorting Algorithms Using Python 3.12 New Features
 
+## Installation
+
+```bash
+python -m pip install -r requirements.txt
+```
+
 ## Unit Testing
 
 This project uses the `unittest` native Python module to write and run unit
