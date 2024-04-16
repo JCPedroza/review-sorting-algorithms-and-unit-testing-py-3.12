@@ -60,20 +60,20 @@ python -m unittest sort_test.py
 ### Selection Sort
 
   * https://en.wikipedia.org/wiki/selection_sort
-  * https://www.programiz.com/dsa/selection-sort
   * https://rosettacode.org/wiki/Sorting_algorithms/Selection_sort
+  * https://www.programiz.com/dsa/selection-sort
 
 ### Bubble Sort
 
   * https://en.wikipedia.org/wiki/bubble_sort
-  * https://www.programiz.com/dsa/bubble-sort
   * https://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort
+  * https://www.programiz.com/dsa/bubble-sort
 
 ### Insertion Sort
 
   * https://en.wikipedia.org/wiki/insertion_sort
-  * https://www.programiz.com/dsa/insertion-sort
   * https://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort
+  * https://www.programiz.com/dsa/insertion-sort
 
 ### Merge Sort
 
