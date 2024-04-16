@@ -1,9 +1,9 @@
 """
-This implementation of Bubble Sort uses a boolean flag to improve the best case time
-complexity from O(n^2)to O(n) by terminating early if the list is already sorted.
-
-It also avoids processing the sorted portion of the list by having
-len(nums) - loop - 1 as the stop of the inner loop range.
+This implementation of Bubble Sort:
+  * Uses a boolean flag to improve the best case time complexity from O(n^2)to O(n) by
+    terminating early if the list is already sorted.
+  * Avoids processing the sorted portion of the list by having len(nums) - loop - 1 as
+    the stop of the inner loop range.
 
 Time Complexity: Best O(n) | Avg O(n^2) | Worst O(n^2)
 Space Complexity: Total O(n) | Aux O(1)
@@ -33,5 +33,5 @@ def bubble_sort(nums: IntList) -> IntList:
     return nums
 
 
-name = "optimized bubble sort"
+name = "bubble sort (optimized)"
 algorithm = SortingAlgorithm(bubble_sort, name)

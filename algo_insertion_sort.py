@@ -1,5 +1,5 @@
 """
-This implementation of Selection Sort:
+This implementation of Insertion Sort:
   * Has built-in early termination optimization.
   * Could be optimized by reducing the number of swaps and comparisons, but this
     version is used to preserve logic simplicity.
@@ -28,5 +28,5 @@ def insertion_sort(nums: IntList) -> IntList:
     return nums
 
 
-name = "naive insertion sort"
+name = "insertion sort (naive)"
 algorithm = SortingAlgorithm(insertion_sort, name)
