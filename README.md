@@ -1,6 +1,10 @@
 # Implementing & Testing Sorting Algorithms Using Python 3.12 New Features
 
 [![python][0]][1]
+[![license MIT][6]][7]
+[![style black][8]][9]
+[![lint: flake8][2]][3]
+[![test: pytest][4]][5]
 
 This project is a quick review of:
   * Python 3.12 new features
@@ -112,3 +116,11 @@ python -m unittest sort_test.py
 
 [0]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [1]: https://github.com/python/cpython
+[2]: https://img.shields.io/badge/lint-flake8-blue.svg
+[3]: https://github.com/PyCQA/flake8
+[4]: https://img.shields.io/badge/test-pytest-blue.svg
+[5]: https://github.com/pytest-dev/pytest
+[6]: https://badgen.net/github/license/JCPedroza/algorithms-and-data-structures-py
+[7]: https://opensource.org/licenses/MIT
+[8]: https://img.shields.io/badge/code%20style-black-000000.svg
+[9]: https://github.com/psf/black
