@@ -57,12 +57,12 @@ python -m unittest sort_test.py
 ## Analysis of Used Implementations
 
 | algorithm      | time complexity (best avg worst) | space complexity (total aux) |
-| :---:          | :---:                            | :---:                        |
+| ---:           | :---:                            | :---                         |
 | selection sort | O(n^2) O(n^2) O(n^2)             | O(n) O(1)                    |
 | bubble sort    | O(n) O(n^2) O(n^2)               | O(n) O(1)                    |
 | insertion sort | O(n) O(n^2) O(n^2)               | O(n) O(1)                    |
 | merge sort     | O(n log n) O(n log n) O(n log n) | O(n) O(n)                    |
-| heap sort      | O(n log n) O(n log n) O(n log n) | O(n) O(n)                    |
+| heap sort      | O(n log n) O(n log n) O(n log n) | O(n) O(1)                    |
 
 ## Resources
 
