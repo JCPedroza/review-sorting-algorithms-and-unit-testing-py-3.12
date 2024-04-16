@@ -1,5 +1,7 @@
 # Implementing & Testing Sorting Algorithms Using Python 3.12 New Features
 
+[![python][0]][1]
+
 This project is a quick review of:
   * Python 3.12 new features
   * Python native unit testing module `unittest`
@@ -105,3 +107,8 @@ python -m unittest sort_test.py
   * https://en.wikipedia.org/wiki/heap_sort
   * https://rosettacode.org/wiki/Sorting_algorithms/Heapsort
   * https://www.programiz.com/dsa/heap-sort
+
+---
+
+[0]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
+[1]: https://github.com/python/cpython
