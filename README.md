@@ -57,7 +57,7 @@ python -m unittest sort_test.py
 ## Analysis of Used Implementations
 
 | algorithm      | time complexity (best avg worst) | space complexity (total aux) |
-| ---:           | :---:                            | :---                         |
+| ---:           | :---:                            | :---:                        |
 | selection sort | O(n^2) O(n^2) O(n^2)             | O(n) O(1)                    |
 | bubble sort    | O(n) O(n^2) O(n^2)               | O(n) O(1)                    |
 | insertion sort | O(n) O(n^2) O(n^2)               | O(n) O(1)                    |
@@ -100,7 +100,7 @@ python -m unittest sort_test.py
   * https://rosettacode.org/wiki/Sorting_algorithms/Merge_sort
   * https://www.programiz.com/dsa/merge-sort
 
-## Heap Sort
+### Heap Sort
 
   * https://en.wikipedia.org/wiki/heap_sort
   * https://rosettacode.org/wiki/Sorting_algorithms/Heapsort
