@@ -3,7 +3,7 @@ This implementation of Bubble Sort uses a boolean flag to improve the best case 
 complexity from O(n^2)to O(n) by terminating early if the list is already sorted.
 
 It also avoids processing the sorted portion of the list by having
-len(nums) - loop - 1 as the stop of the inner loop.
+len(nums) - loop - 1 as the stop of the inner loop range.
 
 Time Complexity: Best O(n) | Avg O(n^2) | Worst O(n^2)
 Space Complexity: Total O(n) | Aux O(1)
@@ -18,9 +18,10 @@ from sort_types import IntList, SortingAlgorithm
 
 def bubble_sort(nums: IntList) -> IntList:
     """Sorts the given integer list in ascending order."""
-    is_sorted = True
-
     for loop in range(len(nums) - 1):
+        is_sorted = True
+
+        # Loop through the unsorted portion and swap unsorted adjacent pairs
         for idx in range(len(nums) - loop - 1):
             if nums[idx] > nums[idx + 1]:
                 nums[idx], nums[idx + 1] = nums[idx + 1], nums[idx]
