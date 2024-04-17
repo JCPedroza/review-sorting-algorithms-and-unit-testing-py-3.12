@@ -15,7 +15,7 @@ https://www.programiz.com/dsa/merge-sort
 https://rosettacode.org/wiki/Sorting_algorithms/Merge_sort
 """
 
-from sort_types import IntList, SortingAlgorithm
+from sort_types import IntList, Algorithm
 
 
 def merge(left: IntList, right: IntList) -> IntList:
@@ -45,4 +45,4 @@ def merge_sort(nums: IntList) -> IntList:
 
 
 name = "merge sort (recursive)"
-algorithm = SortingAlgorithm(merge_sort, name)
+algorithm = Algorithm(merge_sort, name)

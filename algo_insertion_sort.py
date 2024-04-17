@@ -12,7 +12,7 @@ https://www.programiz.com/dsa/insertion-sort
 https://rosettacode.org/wiki/Sorting_algorithms/Insertion_sort
 """
 
-from sort_types import IntList, SortingAlgorithm
+from sort_types import IntList, Algorithm
 
 
 def insertion_sort(nums: IntList) -> IntList:
@@ -29,4 +29,4 @@ def insertion_sort(nums: IntList) -> IntList:
 
 
 name = "insertion sort (naive)"
-algorithm = SortingAlgorithm(insertion_sort, name)
+algorithm = Algorithm(insertion_sort, name)

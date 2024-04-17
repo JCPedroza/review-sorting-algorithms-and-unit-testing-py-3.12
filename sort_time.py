@@ -1,10 +1,10 @@
 from random import shuffle
 from timeit import default_timer as timer
-from sort_types import FloatSeconds, IntList, SortingAlgorithm, SortingAlgorithmList
+from sort_types import Seconds, IntList, Algorithm, AlgorithmList
 from sort_repo import algorithms
 
 
-def time(algo: SortingAlgorithm, arg: IntList) -> FloatSeconds:
+def time(algo: Algorithm, arg: IntList) -> Seconds:
     """Measures the running time of the given sorting algorithm, in seconds."""
     start = timer()
     algo.sort(arg)
@@ -13,13 +13,13 @@ def time(algo: SortingAlgorithm, arg: IntList) -> FloatSeconds:
     return stop - start
 
 
-def time_many(algos: SortingAlgorithmList, arg: IntList):
+def time_many(algos: AlgorithmList, arg: IntList):
     """Measures the running time of the given sorting algorithms, in seconds."""
     shuffle(algos)
     return {algo: time(algo, arg) for algo in algos}
 
 
-def profile(algos: SortingAlgorithmList, arg: IntList, reps: int):
+def profile(algos: AlgorithmList, arg: IntList, reps: int):
     totals = {algo: 0 for algo in algos}
 
     for _ in range(reps):

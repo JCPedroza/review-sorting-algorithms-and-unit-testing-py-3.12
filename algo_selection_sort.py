@@ -14,7 +14,7 @@ https://www.programiz.com/dsa/selection-sort
 https://rosettacode.org/wiki/Sorting_algorithms/Selection_sort
 """
 
-from sort_types import IntList, SortingAlgorithm
+from sort_types import IntList, Algorithm
 
 
 def selection_sort(nums: IntList) -> IntList:
@@ -34,4 +34,4 @@ def selection_sort(nums: IntList) -> IntList:
 
 
 name = "selection sort (no early termination)"
-algorithm = SortingAlgorithm(selection_sort, name)
+algorithm = Algorithm(selection_sort, name)

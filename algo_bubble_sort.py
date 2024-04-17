@@ -13,7 +13,7 @@ https://rosettacode.org/wiki/Sorting_algorithms/Bubble_sort
 https://www.programiz.com/dsa/bubble-sort
 """
 
-from sort_types import IntList, SortingAlgorithm
+from sort_types import IntList, Algorithm
 
 
 def bubble_sort(nums: IntList) -> IntList:
@@ -34,4 +34,4 @@ def bubble_sort(nums: IntList) -> IntList:
 
 
 name = "bubble sort (optimized)"
-algorithm = SortingAlgorithm(bubble_sort, name)
+algorithm = Algorithm(bubble_sort, name)

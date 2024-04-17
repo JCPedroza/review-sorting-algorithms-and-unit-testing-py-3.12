@@ -10,7 +10,7 @@ https://rosettacode.org/wiki/Sorting_algorithms/Heapsort
 https://www.programiz.com/dsa/heap-sort
 """
 
-from sort_types import IntList, SortingAlgorithm
+from sort_types import IntList, Algorithm
 
 
 def heapify(nums: IntList, heap_size: int, root_idx: int) -> None:
@@ -49,4 +49,4 @@ def heap_sort(nums: IntList) -> IntList:
 
 
 name = "heap sort (recursive)"
-algorithm = SortingAlgorithm(heap_sort, name)
+algorithm = Algorithm(heap_sort, name)

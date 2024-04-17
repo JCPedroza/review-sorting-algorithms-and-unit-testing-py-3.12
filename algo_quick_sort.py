@@ -12,7 +12,7 @@ https://rosettacode.org/wiki/Sorting_algorithms/Quicksort
 https://www.programiz.com/dsa/quick-sort
 """
 
-from sort_types import IntList, SortingAlgorithm
+from sort_types import IntList, Algorithm
 
 
 def quick_sort(nums: IntList) -> IntList:
@@ -36,4 +36,4 @@ def quick_sort(nums: IntList) -> IntList:
 
 
 name = "quick sort (recursive)"
-algorithm = SortingAlgorithm(quick_sort, name)
+algorithm = Algorithm(quick_sort, name)
