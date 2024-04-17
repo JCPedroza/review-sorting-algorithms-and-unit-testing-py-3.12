@@ -8,7 +8,9 @@
 
 This project is a quick review of:
   * Python 3.12 new features
-  * Python native unit testing module `unittest`
+  * Python's native unit testing module `unittest`
+  * Python's type hint system
+  * Measuring the running time of a function
   * Six basic sorting algorithms
 
 This project also serves as the notes of said review. You'll find some theory in the
