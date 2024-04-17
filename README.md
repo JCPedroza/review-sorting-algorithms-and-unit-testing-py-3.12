@@ -69,12 +69,19 @@ python -m unittest sort_test.py
 | insertion sort | O(n) O(n^2) O(n^2)               | O(n) O(1)                    |
 | merge sort     | O(n log n) O(n log n) O(n log n) | O(n) O(n)                    |
 | heap sort      | O(n log n) O(n log n) O(n log n) | O(n) O(1)                    |
+| quick sort     | O(n log n) O(n log n) O(n^2)     | O(n) O(n)                    |
 
 ## Resources
+
+### Python
+
+  * https://en.wikipedia.org/wiki/History_of_Python
 
 ### What's New in Python 3.12
 
   * https://docs.python.org/3/whatsnew/3.12.html
+  * https://realpython.com/python312-new-features/
+  * https://blog.jetbrains.com/pycharm/2023/11/python-3-12/
 
 ### Algorithms & Data Structures
 
@@ -111,6 +118,12 @@ python -m unittest sort_test.py
   * https://en.wikipedia.org/wiki/heap_sort
   * https://rosettacode.org/wiki/Sorting_algorithms/Heapsort
   * https://www.programiz.com/dsa/heap-sort
+
+### Quick Sort
+
+  * https://en.wikipedia.org/wiki/quick_sort
+  * https://rosettacode.org/wiki/Sorting_algorithms/Quicksort
+  * https://www.programiz.com/dsa/quick-sort
 
 ---
 
