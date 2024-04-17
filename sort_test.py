@@ -8,24 +8,42 @@ class TestSort(unittest.TestCase):
 
     def test_empty(self):
         for algorithm in self.algorithms:
-            self.assertEqual(algorithm.sort([]), [], algorithm.name)
+            self.assertEqual(
+                algorithm.sort([]),
+                [],
+                algorithm.name,
+            )
 
     def test_singleton(self):
         for algorithm in self.algorithms:
-            self.assertEqual(algorithm.sort([5]), [5], algorithm.name)
+            self.assertEqual(
+                algorithm.sort([5]),
+                [5],
+                algorithm.name,
+            )
 
     def test_ordered(self):
         for algorithm in self.algorithms:
-            self.assertEqual(algorithm.sort([0, 1, 2, 3]), [0, 1, 2, 3], algorithm.name)
+            self.assertEqual(
+                algorithm.sort([0, 1, 2, 3]),
+                [0, 1, 2, 3],
+                algorithm.name,
+            )
 
     def test_reversed(self):
         for algorithm in self.algorithms:
-            self.assertEqual(algorithm.sort([3, 2, 1, 0]), [0, 1, 2, 3], algorithm.name)
+            self.assertEqual(
+                algorithm.sort([3, 2, 1, 0]),
+                [0, 1, 2, 3],
+                algorithm.name,
+            )
 
     def test_duplicates(self):
         for algorithm in self.algorithms:
             self.assertEqual(
-                algorithm.sort([9, 5, 9, 1, 0, 1]), [0, 1, 1, 5, 9, 9], algorithm.name
+                algorithm.sort([9, 5, 9, 1, 0, 1]),
+                [0, 1, 1, 5, 9, 9],
+                algorithm.name,
             )
 
     def test_negatives_odd_len(self):
