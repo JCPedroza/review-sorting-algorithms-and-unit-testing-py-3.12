@@ -1,3 +1,7 @@
+"""
+This is a wrapper for Python's sorting algorithm.
+"""
+
 from sort_types import Algorithm, IntList
 
 
