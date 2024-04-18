@@ -8,7 +8,7 @@ from sort_types import Algorithm, IntList
 
 def numpy_sort(nums: IntList) -> IntList:
     """Returns a sorted copy of the input list in ascending order."""
-    return sort(nums)
+    return list(sort(nums))
 
 
 name = "numpy sort"
