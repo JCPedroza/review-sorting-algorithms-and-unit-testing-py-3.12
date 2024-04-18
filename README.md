@@ -1,4 +1,4 @@
-# Implementing & Testing Sorting Algorithms Using Python 3.12 New Features
+# Implementing, Testing, & Timing Sorting Algorithms Using Python's 3.12 New Features
 
 [![python][0]][1]
 [![license MIT][6]][7]
@@ -7,7 +7,7 @@
 [![test: unittest][4]][5]
 
 This project is a quick review of:
-  * Python 3.12 new features
+  * Python's 3.12 new features
   * Python's native unit testing module `unittest`
   * Python's type hint system
   * Measuring the running time of a function
@@ -72,6 +72,15 @@ python -m unittest sort_test.py
 | merge sort     | O(n log n) O(n log n) O(n log n) | O(n) O(n)                    |
 | heap sort      | O(n log n) O(n log n) O(n log n) | O(n) O(1)                    |
 | quick sort     | O(n log n) O(n log n) O(n^2)     | O(n) O(n)                    |
+
+## Contributing
+
+Found a bug, typo, or mistake? Want to refactor, optimize, or improve something in this
+repository? **Send a pull request! Pull requests are always welcome!**
+
+There's no need to create an issue. Just use a descriptive commit message and I'll
+format it adequately when accepting the pull request. Contributing here is as simple
+as commiting your changes and sending a pull request!
 
 ## Resources
 
