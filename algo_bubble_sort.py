@@ -1,7 +1,7 @@
 """
 This implementation of Bubble Sort:
   * Uses a boolean flag to improve the best case time complexity from O(n^2)to O(n) by
-    terminating early if the list is already sorted.
+    terminating early if the list ends up sorted after any iteration.
   * Avoids processing the sorted portion of the list by having len(nums) - loop - 1 as
     the stop of the inner loop range.
 
