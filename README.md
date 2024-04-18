@@ -28,8 +28,8 @@ Only one version of each algorithm is chosen and implemented.
 
 ## Installation
 
-Installation is only needed for static type check and formatting. Note that
-`mypy` might not yet support type aliases, but `pyright` already does.
+Installation is not needed to run the program. Installation is only needed for static
+type check, linting, and formatting.
 
 ```bash
 python -m pip install -r requirements.txt
@@ -37,7 +37,27 @@ python -m pip install -r requirements.txt
 
 ## How to Run
 
+The main functionality of the program is to measure and compare the running time of
+different sorting algorithms. To run using default values use:
+
+```bash
+python main.py
+```
+
+If you want to provide your own values, the program accepts two command line
+arguments: the size of the list to be sorted, and the number of times that the
+measurement will be repeated and accumulated:
+
+```bash
+python main.py 20 50
+```
+
+The above will sort arrays of size 20, 50 different times, and the results added
+together.
+
 ### Static Type Check
+
+Note that `mypy` might not yet support type aliases, but `pyright` already does.
 
 ```bash
 python -m pyright .
