@@ -28,8 +28,8 @@ Only one version of each algorithm is chosen and implemented.
 
 ## Installation
 
-Installation is not needed to run the program. Installation is only needed for static
-type check, linting, and formatting.
+Installation is required to run this program. Once you clone this repository,
+install the dependencies with:
 
 ```bash
 python -m pip install -r requirements.txt
