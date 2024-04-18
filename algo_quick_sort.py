@@ -35,5 +35,5 @@ def quick_sort(nums: IntList) -> IntList:
     return [*quick_sort(left_nums), pivot_val, *quick_sort(right_nums)]
 
 
-name = "quick sort (recursive)"
+name = "quick sort"
 algorithm = Algorithm(quick_sort, name)

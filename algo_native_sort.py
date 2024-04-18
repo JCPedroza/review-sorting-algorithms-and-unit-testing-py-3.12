@@ -11,5 +11,5 @@ def native_sort(nums: IntList) -> IntList:
     return nums
 
 
-name = "native sort (python)"
+name = "native sort"
 algorithm = Algorithm(native_sort, name)

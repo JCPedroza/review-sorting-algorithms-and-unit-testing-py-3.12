@@ -48,5 +48,5 @@ def heap_sort(nums: IntList) -> IntList:
     return nums
 
 
-name = "heap sort (recursive)"
+name = "heap sort"
 algorithm = Algorithm(heap_sort, name)

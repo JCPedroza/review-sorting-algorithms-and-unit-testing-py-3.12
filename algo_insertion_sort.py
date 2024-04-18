@@ -28,5 +28,5 @@ def insertion_sort(nums: IntList) -> IntList:
     return nums
 
 
-name = "insertion sort (naive)"
+name = "insertion sort"
 algorithm = Algorithm(insertion_sort, name)

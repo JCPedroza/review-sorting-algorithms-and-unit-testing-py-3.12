@@ -44,5 +44,5 @@ def merge_sort(nums: IntList) -> IntList:
     return merge(merge_sort(left_nums), merge_sort(righ_nums))
 
 
-name = "merge sort (recursive)"
+name = "merge sort"
 algorithm = Algorithm(merge_sort, name)

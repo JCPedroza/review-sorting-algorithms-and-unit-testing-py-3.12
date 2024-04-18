@@ -33,5 +33,5 @@ def selection_sort(nums: IntList) -> IntList:
     return nums
 
 
-name = "selection sort (no early termination)"
+name = "selection sort"
 algorithm = Algorithm(selection_sort, name)

@@ -33,5 +33,5 @@ def bubble_sort(nums: IntList) -> IntList:
     return nums
 
 
-name = "bubble sort (optimized)"
+name = "bubble sort"
 algorithm = Algorithm(bubble_sort, name)
